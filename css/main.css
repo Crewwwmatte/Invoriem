@@ -8,6 +8,10 @@ body {
     font-weight: 500;
 }
 
+.none {
+    display: none;
+}
+
 .header {
     background-image: url("./../img/header/mask-group-pc.jpg");
     background-size: cover;
@@ -152,4 +156,33 @@ body {
 
 .header-btn {
     margin: 0 0 386px 102px;
+}
+
+.case-studies {
+}
+
+.case-studies-title {
+    margin-top: 184px;
+    margin-bottom: 12px;
+    max-width: 486px;
+    font-size: 80px;
+    line-height: 94px;
+    font-weight: 800;
+
+    /* Dark grey */
+    color: #1F1F1F;
+}
+
+.case-studies-text {
+    margin-bottom: 100px;
+    max-width: 1070px;
+    font-size: 28px;
+    line-height: 1.57;
+
+    /* or 157% */
+
+
+    /* Dark grey */
+    color: #1F1F1F;
+    opacity: 0.7;
 }
