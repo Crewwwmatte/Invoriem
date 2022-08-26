@@ -247,7 +247,7 @@ body {
 }
 
 .video-video {
-    position: absolute;
+    position: relative;
     max-width: 1720px;
     max-height: 967px;
     width: 100%;
