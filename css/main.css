@@ -27,6 +27,10 @@ body {
     max-width: 1720px;
 }
 
+.container-right {
+    padding-left: calc((100% - 1720px) / 2);
+}
+
 .pre-header {
     padding: 44px 44px 44px 0;
 }
@@ -77,7 +81,7 @@ body {
     transition: 0.1s ease-in;
 }
 
-.btn:after {
+.btn::after {
     content: "";
     position: absolute;
     width: 32px;
@@ -110,7 +114,7 @@ body {
     transition: 0.1s ease-in;
 }
 
-.btn-dark:after {
+.btn-dark::after {
     background-image: url("./../img/icons/Arrow Right white.svg");
     transition: 0.1s ease-in;
 }
@@ -159,10 +163,10 @@ body {
 }
 
 .case-studies {
+    padding: 184px 0;
 }
 
 .case-studies-title {
-    margin-top: 184px;
     margin-bottom: 12px;
     max-width: 486px;
     font-size: 80px;
@@ -178,11 +182,89 @@ body {
     max-width: 1070px;
     font-size: 28px;
     line-height: 1.57;
-
     /* or 157% */
 
 
     /* Dark grey */
     color: #1F1F1F;
     opacity: 0.7;
+}
+
+.slider {
+
+}
+
+.slider-item {
+
+}
+
+.slide {
+    display: inline-block;
+    padding-left: 80px;
+    position: relative;
+}
+
+.slide-card-title {
+    position: absolute;
+    left: 0;
+    bottom: 104px;
+    font-size: 140px;
+    line-height: 164px;
+    font-weight: 800;
+
+    background: linear-gradient(90deg, rgba(17,68,85,1) 80px, rgba(255,255,255,1) 80px);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);*/
+}
+
+.video {
+    position: relative;
+}
+
+.video-title {
+    max-width: 610px;
+    margin-bottom: 12px;
+    font-size: 80px;
+    line-height: 94px;
+    font-weight: 800;
+
+    /* Dark grey */
+    color: #1F1F1F;
+}
+
+.video-text {
+    max-width: 610px;
+    margin-bottom: 78px;
+    font-size: 28px;
+    line-height: 1.57;
+    font-weight: 800;
+    /* identical to box height, or 157% */
+
+
+    /* Dark grey */
+    color: #1F1F1F;
+    opacity: 0.7;
+}
+
+.video-content {
+}
+
+.video-video::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #114455;
+    opacity: 0.5;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
 }
