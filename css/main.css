@@ -218,10 +218,6 @@ body {
     /*text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);*/
 }
 
-.video {
-    position: relative;
-}
-
 .video-title {
     max-width: 610px;
     margin-bottom: 12px;
@@ -250,6 +246,18 @@ body {
 .video-content {
 }
 
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+.video-video {
+    position: absolute;
+}
+
 .video-video::after {
     content: '';
     position: absolute;
@@ -259,12 +267,4 @@ body {
     height: 100%;
     background-color: #114455;
     opacity: 0.5;
-}
-
-.play-btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9;
 }
