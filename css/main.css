@@ -246,19 +246,14 @@ body {
 .video-content {
 }
 
-.play-btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9;
-}
-
 .video-video {
     position: absolute;
+    max-width: 1720px;
+    max-height: 967px;
+    width: 100%;
 }
 
-.video-video::after {
+.video-overlay::after {
     content: '';
     position: absolute;
     top: 0;
@@ -267,4 +262,44 @@ body {
     height: 100%;
     background-color: #114455;
     opacity: 0.5;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+.video-pic {
+    /*display: none;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.video-object {
+    width: 100%;
+    max-width: 1720px;
+}
+
+.footer {
+    padding-top: 162px;
+    padding-bottom: 82px;
+}
+
+.footer-copyright {
+
+}
+
+.footer-nav {
+
+}
+
+.footer-mail {
+
+}
+
+.footer-socilas {
+
 }
