@@ -310,13 +310,30 @@ body {
 }
 
 .footer-nav {
-
+    display: flex;
+    justify-content: space-between;
+    column-gap: 104px;
 }
 
 .footer-mail {
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 500;
 
+    /* identical to box height, or 180% */
+    letter-spacing: 0.04em;
+
+    /* Dark grey */
+    color: #1F1F1F;
+    opacity: 0.7;
 }
 
-.footer-socilas {
+.footer-link {
+    color: #1F1F1F;
+    /*text-decoration: none;*/
+}
 
+.footer-socials {
+    display: flex;
+    column-gap: 26px;
 }
