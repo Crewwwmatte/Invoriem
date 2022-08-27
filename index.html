@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Invoriem</title>
-    <link href="./css/main.css" rel="stylesheet" type="text/css">
-    <link href="./css/reset.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/media.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -33,7 +35,7 @@
         <a href="#" class="btn btn-big btn-dark">Let’s Talk</a>
     </div>
 </header>
-<main class="main">
+<main class="main none">
     <section class="case-studies">
         <div class="container">
             <div class="case-studies-title">
@@ -89,17 +91,18 @@
         </div>
     </section>
 </main>
-<footer class="footer">
+<footer class="footer none">
     <div class="container">
         <div class="footer-row">
             <div class="footer-copyright">Copyright © 2020 Invoriem</div>
-            <div class="footer-nav"></div>
-            <div class="footer-mail"><a href="#">info@invoriem.com</a></div>
-            <div class="footer-socilas">
-                <img src="./img/icons/instagram.svg" alt="Instagram">
-                <img src="./img/icons/facebook.svg" alt="Facebook">
-                <img src="./img/icons/twitter.svg" alt="Twitter">
-                <img src="./img/icons/linkedIn.svg" alt="LinkedIn">
+            <div class="footer-nav">
+                <div class="footer-mail"><a class="footer-link" href="mailto:info@invoriem.com">info@invoriem.com</a></div>
+                <div class="footer-socials">
+                    <a class="footer-socials-link" href="#"><img src="./img/icons/instagram.svg" alt="Instagram"></a>
+                    <a class="footer-socials-link" href="#"><img src="./img/icons/facebook.svg" alt="Facebook"></a>
+                    <a class="footer-socials-link" href="#"><img src="./img/icons/twitter.svg" alt="Twitter"></a>
+                    <a class="footer-socials-link" href="#"><img src="./img/icons/linkedIn.svg" alt="LinkedIn"></a>
+                </div>
             </div>
         </div>
     </div>
