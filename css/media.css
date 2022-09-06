@@ -1,16 +1,18 @@
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 425px) {
     .header {
+        background-image: url("./../img/header/back-mob-header.jpg");
     }
 
     .none {
     }
 
     .container {
-        margin: 0 24px;
+        margin: 0;
     }
 
     .pre-header {
         /*display: none;*/
+        margin: 0 24px;
         padding-top: 50px;
         padding-bottom: 18px;
     }
@@ -58,7 +60,106 @@
     }
 
     .header-mobile-content {
+        margin-top: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        /*width: 100vh;*/
+        position: relative;
+    }
+
+    .header-mobile-logo {
+        margin: 0;
         display: block;
+    }
+
+    .header-mobile-title {
+        margin-top: 28px;
+        display: block;
+    }
+
+    .header-arrow {
+        position: absolute;
+        display: flex;
+        width: 19px;
+        height: 16px;
+        background: red;
+        bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+    }
+
+    .none {
+    }
+
+    .container {
+        margin: 0;
+    }
+
+    .pre-header {
+        /*display: none;*/
+        margin: 0 24px;
+        padding-top: 50px;
+        padding-bottom: 18px;
+    }
+
+    .nav {
+        /*display: none;*/
+    }
+
+    .nav-logo {
+        /*display: none;*/
+        max-width: 110px;
+
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav-btn {
+        display: block;
+    }
+
+    .header-content {
+        /*display: none;*/
+    }
+
+    .header-main-title {
+        display: none;
+    }
+
+    .header-main-subtitle {
+        display: none;
+    }
+
+    .header-btn {
+        display: none;
+    }
+
+    .btn-big {
+        display: none;
+    }
+
+    .btn-dark {
+        display: none;
+    }
+
+    .header-mobile-content {
+        margin-top: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        /*width: 100vh;*/
     }
 
     .header-mobile-logo {

@@ -19,7 +19,7 @@ body {
     /*width: 100vh;*/
     height: 100vh;
     background-color: #d9e9f0;
-
+    /*position: relative;*/
 }
 
 .container {
@@ -137,7 +137,7 @@ body {
 
 .header-main-title {
     max-width: 734px;
-    margin: 126px 0 48px 100px;
+    margin: 126px 0 48px 0;
     font-weight: 800;
     font-size: 80px;
     line-height: 94px;
@@ -146,7 +146,7 @@ body {
 }
 
 .header-main-subtitle {
-    margin: 0 0 72px 100px;
+    margin: 0 0 72px 0;
     font-style: normal;
     font-weight: 400;
     font-size: 34px;
@@ -162,19 +162,16 @@ body {
 }
 
 .header-btn {
-    margin: 0 0 386px 102px;
+    /*margin-bottom: 300px;*/
 }
 
 .header-mobile-content {
-    /*margin-left: 65px;*/
-    /*margin-top: 150px;*/
-    /*align-items: center;*/
+    max-width: 244px;
     display: none;
 }
 
 .header-mobile-logo {
-    max-width: 244px;
-    width: 244px;
+    width: 100%;
     display: none;
 }
 
@@ -192,6 +189,23 @@ body {
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     display: none;
 }
+
+.header-arrow {
+    width: 32px;
+    height: 28px;
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: flex-end;*/
+    background: red;
+}
+
+/*.header-arrow-img {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: flex-end;*/
+/*    width: 32px;*/
+/*    height: 28px;*/
+/*}*/
 
 .case-studies {
     padding: 184px 0;
