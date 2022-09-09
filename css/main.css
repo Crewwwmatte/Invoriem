@@ -3,6 +3,10 @@
 /*font-family: 'Work Sans', sans-serif;*/
 /*font-family: 'Gilroy', sans-serif;*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Gilroy', sans-serif;
     font-weight: 500;
@@ -19,7 +23,7 @@ body {
     /*width: 100vh;*/
     height: 100vh;
     background-color: #d9e9f0;
-    /*position: relative;*/
+    position: relative;
 }
 
 .container {
@@ -191,21 +195,17 @@ body {
 }
 
 .header-arrow {
-    width: 32px;
-    height: 28px;
-    display: flex;
-    /*justify-content: center;*/
-    /*align-items: flex-end;*/
-    background: red;
+    max-width: 38px;
+    left: 50%;
+    bottom: 59px;
+    transform: translate(-50%, 0);
+    position: absolute;
 }
 
-/*.header-arrow-img {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: flex-end;*/
-/*    width: 32px;*/
-/*    height: 28px;*/
-/*}*/
+.header-arrow img {
+    width: 38px;
+    height: 28px;
+}
 
 .case-studies {
     padding: 184px 0;
